@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header></header>
+    <div id="box_wrap">
+        <div class="top_m_wrap">
+            <div class="top_m">
+                <a><img alt="Brand" src="../img/logo.34b1b031.png"></a>
+                <div class="search">
+                    <div class="search-top">
+                        <div class="search-input">
+                            <input type="text" placeholder="想想您想要的产品">
+                        </div>
+                        <a href="">搜索</a>
+                    </div>
+                </div>
+                <div class="code">
+                    <img src="../img/code.53fecea8.png" alt="">
+                </div>
+            </div>
+
+            <div class="banner_wrap">
+                <div class="banner">
+                    <div class="banner_left">
+                        <span class="kinds">全部商品分类 </span>
+                        <div>
+                            <ul class="nav_ul">
+                                <li>
+                                    <span class="iconfont icon-bijiben"></span>
+                                    <span>笔记本 / 超极本 / 台式电脑</span>
+                                    <div class="list">
+                                        <dl></dl>
+                                        <dl></dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="iconfont icon-wenjianbangong_dayinji"></span>
+                                    <span>办公打印 / 投影 / 监控 / 软件</span>
+                                    <div class="list">
+                                        <dl></dl>
+                                        <dl></dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="iconfont icon-chuweidianqi
+                        "></span>
+                                    <span>厨卫电器 / 小家电 / 生活家电</span>
+                                    <div class="list">
+                                        <dl></dl>
+                                        <dl></dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="iconfont icon-dajiadian
+                        "></span>
+                                    <span>大家电 / 影音电视 / 游戏机</span>
+                                    <div class="list">
+                                        <dl></dl>
+                                        <dl></dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="iconfont icon-shouji
+                        "></span>
+                                    <span>手机 / 智能手机 / 通讯产品</span>
+                                    <div class="list">
+                                        <dl></dl>
+                                        <dl></dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="iconfont icon-shumachanpin
+                        "></span>
+                                    <span>数码产品 / MP3 / 移动电源</span>
+                                    <div class="list">
+                                        <dl></dl>
+                                        <dl></dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="iconfont icon-danfan"></span>
+                                    <span>数码相机 / 单反 / 数码摄影机</span>
+                                    <div class="list">
+                                        <dl></dl>
+                                        <dl></dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="iconfont icon-fuwuqi
+                        "></span>
+                                    <span>服务器 / 网络 / 无线 / 布线</span>
+                                    <div class="list">
+                                        <dl></dl>
+                                        <dl></dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="iconfont icon-yingjian
+    
+                        "></span>
+                                    <span>DIY硬件 / 外设 / 模拟攒机</span>
+                                    <div class="list">
+                                        <dl></dl>
+                                        <dl></dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="iconfont icon-pingban"></span>
+                                    <span>平板电脑 / 智能穿戴 / 智能家居</span>
+                                    <div class="list">
+                                        <dl></dl>
+                                        <dl></dl>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="iconfont icon-qiche"></span>
+                                    <span>汽车电子 / 电动车 / 代步出行</span>
+                                    <div class="list">
+                                        <dl></dl>
+                                        <dl></dl>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="banner_r">
+                        <div class="banner_right">
+                            <a href="" class="nav_item">首页</a>
+                            <a href="" class="nav_item">解决方案馆</a>
+                            <a href="" class="nav_item">政府采购</a>
+                            <a href="" class="nav_item">企业采购</a>
+                            <a href="" class="nav_item">福利采购</a>
+                            <a href="" class="nav_item numberIndex">中在指数</a>
+                            <div class="twoGrade">
+                                <a href="">价格指数</a>
+                                <a href="">销量指数</a>
+                                <a href="">交易指数</a>
+                                <a href="">品牌指数</a>
+                            </div>
+
+                        </div>
+                        <div class="banner_right_left">
+
+                            <!-- 轮播 -->
+
+                            <div class="swiper-container" id="demo">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"> <img
+                                            src="../img/banner1.jpg"
+                                            alt=""></div>
+                                    <div class="swiper-slide"><img
+                                            src="../img/banner2.jpg"
+                                            alt=""></div>
+                                    <div class="swiper-slide">
+                                        <img src="../img/banner3.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="../img/banner4.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="../img/banner5.jpg"
+                                            alt="">
+                                    </div>
+
+                                </div>
+                                <!-- 如果需要导航按钮 -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                                <!-- 如果需要分页器 -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="banner_right_right">
+
+
+                            <div class="login">
+                                <ul class="login_tabs">
+                                    <li class="person">会员登录</li>
+                                </ul>
+                                <div class="notLogin">
+                                    <input type="text" placeholder="手机号/邮箱/用户名" class="phone"><br>
+                                    <input type="text" placeholder="密码" class="password"><br>
+                                    <button class="loginBtn" style="outline: none;">登录</button>
+                                    <div class="operation">
+                                        <a href="">忘记密码</a>
+                                        <a href="">注册</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news">
+                                <a>
+                                    <div><img src="../img/tubiao1.png" alt=""></div>极速体验
+                                </a>
+                                <a>
+                                    <div><img src="../img/图标2.png" alt=""></div>优采保障
+                                </a>
+                                <a>
+                                    <div><img src="../img/tubiao3.png" alt=""></div>售后无忧
+                                </a>
+                                <a>
+                                    <div><img src="../img/图标4.png" alt=""></div>专属客服
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="common-popular">
+                <div class="popular">
+                    <h3>热门采购</h3>
+                    <div class="refresh">
+                        换一换
+                        <span></span>
+                    </div>
+                </div>
+                <div class="popular_content">
+                    <a href="#" class="popular_item">
+                        <div class="proImg"><img src="../img/ChMkJlui7riIUOZCAAD4LybxuM4AAr3ugAaTE0AAPhH540.jpg" alt="">
+                        </div>
+                        <p class="proName">魅族16 x （全网通）</p>
+                        <p class="price">￥999.00</p>
+                        <button class="shop">立即采购</button>
+                    </a>
+                    <a href="" class="popular_item">
+                        <div class="proImg"><img src="../img/ChMkJlui7riIUOZCAAD4LybxuM4AAr3ugAaTE0AAPhH540.jpg" alt="">
+                        </div>
+                        <p class="proName">魅族16 x （全网通）</p>
+                        <p class="price">￥999.00</p>
+                        <button class="shop">立即采购</button>
+                    </a>
+                    <a href="" class="popular_item">
+                        <div class="proImg"><img src="../img/ChMkJlui7riIUOZCAAD4LybxuM4AAr3ugAaTE0AAPhH540.jpg" alt="">
+                        </div>
+                        <p class="proName">魅族16 x （全网通）</p>
+                        <p class="price">￥999.00</p>
+                        <button class="shop">立即采购</button>
+                    </a>
+                    <a href="" class="popular_item">
+                        <div class="proImg"><img src="../img/ChMkJlui7riIUOZCAAD4LybxuM4AAr3ugAaTE0AAPhH540.jpg" alt="">
+                        </div>
+                        <p class="proName">魅族16 x （全网通）</p>
+                        <p class="price">￥999.00</p>
+                        <button class="shop">立即采购</button>
+                    </a>
+                    <a href="" class="popular_item">
+                        <div class="proImg"><img src="../img/ChMkJlui7riIUOZCAAD4LybxuM4AAr3ugAaTE0AAPhH540.jpg" alt="">
+                        </div>
+                        <p class="proName">魅族16 x （全网通）</p>
+                        <p class="price">￥999.00</p>
+                        <button class="shop">立即采购</button>
+                    </a>
+                    <a href="" class="popular_item">
+                        <div class="proImg"><img src="../img/ChMkJlui7riIUOZCAAD4LybxuM4AAr3ugAaTE0AAPhH540.jpg" alt="">
+                        </div>
+                        <p class="proName">魅族16 x （全网通）</p>
+                        <p class="price">￥999.00</p>
+                        <button class="shop">立即采购</button>
+                    </a>
+                </div>
+
+                <div class="banner_un">
+                    <a href="">
+                        <img src="../img/wrbanner.616c6329.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="under_content">
+                    <div class="equipment">
+                        <h3>办公设备/办公耗材</h3>
+                        <div class="equ_right">
+                            <a href="">办公打印</a>
+                            <a href="">考勤门禁系统</a>
+                            <a href="">投影</a>
+                            <a href="">监控</a>
+                        </div>
+                    </div>
+                    <div class="under_contents">
+                        <div class="efficient">
+                        </div>
+                        <ul id="products">
+                            <li>
+                                <a href="" class="products_item">
+                                    <div class="mind">
+                                        <img src="../img/ChMkJ1vyXLeIcuRPAAC5xSbh4BkAAtPvgMlLUIAALnd778.jpg" alt="">
+                                    </div>
+                                    <p class="products_item_first">联想LJ2268</p>
+                                    <p class="products_item_price">￥789.00</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="products_item">
+                                    <div class="mind">
+                                        <img src="../img/ChMkJ1vyXLeIcuRPAAC5xSbh4BkAAtPvgMlLUIAALnd778.jpg" alt="">
+                                    </div>
+                                    <p class="products_item_first">联想LJ2268</p>
+                                    <P class="products_item_price">￥789.00</P>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="products_item">
+                                    <div class="mind">
+                                        <img src="../img/ChMkJ1vyXLeIcuRPAAC5xSbh4BkAAtPvgMlLUIAALnd778.jpg" alt="">
+                                    </div>
+                                    <p class="products_item_first">联想LJ2268</p>
+                                    <P class="products_item_price">￥789.00</P>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="products_item">
+                                    <div class="mind">
+                                        <img src="../img/ChMkJ1vyXLeIcuRPAAC5xSbh4BkAAtPvgMlLUIAALnd778.jpg" alt="">
+                                    </div>
+                                    <p class="products_item_first">联想LJ2268</p>
+                                    <P class="products_item_price">￥789.00</P>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="products_item">
+                                    <div class="mind">
+                                        <img src="../img/ChMkJ1vyXLeIcuRPAAC5xSbh4BkAAtPvgMlLUIAALnd778.jpg" alt="">
+                                    </div>
+                                    <p class="products_item_first">联想LJ2268</p>
+                                    <P class="products_item_price">￥789.00</P>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="products_item">
+                                    <div class="mind">
+                                        <img src="../img/ChMkJ1vyXLeIcuRPAAC5xSbh4BkAAtPvgMlLUIAALnd778.jpg" alt="">
+                                    </div>
+                                    <p class="products_item_first">联想LJ2268</p>
+                                    <P class="products_item_price">￥789.00</P>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="products_item">
+                                    <div class="mind">
+                                        <img src="../img/ChMkJ1vyXLeIcuRPAAC5xSbh4BkAAtPvgMlLUIAALnd778.jpg" alt="">
+                                    </div>
+                                    <p class="products_item_first">联想LJ2268</p>
+                                    <P class="products_item_price">￥789.00</P>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="products_item">
+                                    <div class="mind">
+                                        <img src="../img/ChMkJ1vyXLeIcuRPAAC5xSbh4BkAAtPvgMlLUIAALnd778.jpg" alt="">
+                                    </div>
+                                    <p class="products_item_first">联想LJ2268</p>
+                                    <P class="products_item_price">￥789.00</P>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="equipment">
+                    <h3>政府采购电商平台</h3>
+                    <div class="equ_right">
+                        <a href="">更多></a>
+                    </div>
+                </div>
+            </div>
+            <div class="buy">
+                <a href="">
+                    <div class="platform_img"><img src="../img/beijingcaigou.png" alt=""></div>
+                    <div class="platform_name">北京市采购平台</div>
+                </a>
+                <a href="">
+                    <div class="platform_img"><img src="../img/hebeicaigou.png" alt=""></div>
+                    <div class="platform_name">河北省采购平台</div>
+                </a>
+                <a href="">
+                    <div class="platform_img"><img src="../img/neimengcaigou.png" alt=""></div>
+                    <div class="platform_name">内蒙古政采平台</div>
+                </a>
+                <a href="">
+                    <div class="platform_img"><img src="../img/shandongcaigou.png" alt=""></div>
+                    <div class="platform_name">山东省采购平台</div>
+                </a>
+                <a href="">
+                    <div class="platform_img"><img src="../img/shanxicaigou.png" alt=""></div>
+                    <div class="platform_name">天津政府采购平台</div>
+                </a>
+                <a href="">
+                    <div class="platform_img"><img src="../img/tianjincaigou.png" alt=""></div>
+                    <div class="platform_name">新疆采购平台</div>
+
+                </a>
+                <a href="">
+                    <div class="platform_img"><img src="../img/yangcai.png" alt=""></div>
+                    <div class="platform_name">央采</div>
+
+                </a>
+                <a href="">
+                    <div class="platform_img"><img src="../img/shanxicaigou.png" alt=""></div>
+                    <div class="platform_name">山西省采购平台</div>
+                </a>
+            </div>
+
+            <footer></footer>
+            <script>
+                $(function () {
+
+                    $("header").load("header.html");
+                    $("footer").load("footer.html");
+                    // 轮播图
+                    var swiper = new Swiper('.swiper-container', {
+                        pagination: '.swiper-pagination',
+                        paginationClickable: true,
+                        loop: true,
+                        autoplay: true,
+                        // 如果需要前进后退按钮
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        // 如果需要分页器
+                        pagination: {
+                            el: '.swiper-pagination',
+                        },
+                    });
+
+
+                    // $(".nav_ul li").on({
+                    //     mouseover: function () {
+                    //         $("#demo").hide().parent().addClass("add");
+                    //     },
+                    //     mouseout: function () {
+                    //         $("#demo").show().parent().removeClass("add");
+                    //     }
+                    // })
+                });
+
+                //      $(".popular_item").on("mouseover",function(){
+                //  $(".proImg").stop().animate(function(){
+                //      width:$(this).outerWidth()*1.2;
+                //      height:$(this).outerHeight()*1.2;
+
+                //  },2000)},"mouseout",function(){},)
+            </script>
+</body>
+
+</html>
